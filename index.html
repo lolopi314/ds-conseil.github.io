@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Conseil | Expertise Administrative & Juridique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-navy { background-color: #1e293b; }
+        .text-gold { color: #d4af37; }
+        .btn-gold { background-color: #d4af37; color: white; }
+        .btn-gold:hover { background-color: #b8962e; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-slate-900">DS <span class="text-gold">Conseil</span></div>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#sante" class="hover:text-gold transition">Santé</a>
+                <a href="#juridique" class="hover:text-gold transition">Expertise Juridique</a>
+                <a href="#propos" class="hover:text-gold transition">À propos</a>
+                <a href="#contact" class="btn-gold px-5 py-2 rounded-full font-medium transition">Prendre contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6 bg-navy text-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Optimisez votre temps, sécurisez vos engagements</h1>
+            <p class="text-xl text-slate-300 mb-10 text-balance">Assistance administrative spécialisée pour les professionnels de santé et expertise juridique sur mesure pour vos contrats.</p>
+            <a href="#contact" class="btn-gold text-lg px-8 py-4 rounded-full font-bold shadow-lg transition inline-block">Prendre contact</a>
+        </div>
+    </section>
+
+    <section id="sante" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-gold font-bold uppercase tracking-widest text-sm">Libéraux de santé</span>
+                <h2 class="text-3xl font-bold mt-2 mb-6 text-slate-900">Simplifiez votre facturation</h2>
+                <p class="mb-6 text-lg">Concentrez-vous sur vos patients, je m'occupe de votre trésorerie. Une gestion rigoureuse pour éviter les impayés.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-gold mt-1 mr-3"></i> Télétransmission et gestion des flux B2</li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-gold mt-1 mr-3"></i> Traitement des rejets et relances mutuelles</li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-gold mt-1 mr-3"></i> Préparation des documents comptables</li>
+                    <li class="flex items-start italic text-slate-500"><i class="fas fa-info-circle mt-1 mr-3"></i> Note : Service hors gestion d'agenda</li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-gold">
+                <i class="fas fa-file-invoice-dollar text-5xl text-gold mb-4"></i>
+                <h3 class="text-xl font-bold mb-2 text-slate-900">Soutien Administratif</h3>
+                <p>Récupérez jusqu'à 5h de temps libre par semaine en déléguant vos tâches administratives complexes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="juridique" class="py-20 px-6 bg-slate-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-gold font-bold uppercase tracking-widest text-sm">Entreprises & Indépendants</span>
+                <h2 class="text-3xl font-bold mt-2 text-slate-900">Expertise Juridique & Marchés Publics</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-10 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><i class="fas fa-gavel text-gold mr-3"></i> Gestion Contractuelle</h3>
+                    <p>Relecture, audit et sécurisation de vos contrats commerciaux et de vos conventions pour limiter vos risques juridiques.</p>
+                </div>
+                <div class="bg-white p-10 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><i class="fas fa-briefcase text-gold mr-3"></i> Marchés Publics</h3>
+                    <p>Accompagnement dans la réponse aux appels d'offres : constitution du dossier administratif et aide à la rédaction du mémoire technique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-slate-900">Un projet ? Une question ?</h2>
+            <p class="text-slate-600 mt-4">Laissez-moi vos coordonnées, je vous recontacterai rapidement.</p>
+        </div>
+        <form class="space-y-6">
+            <div class="grid md:grid-cols-2 gap-6">
+                <input type="text" placeholder="Nom complet" class="w-full p-4 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-gold/50" required>
+                <input type="email" placeholder="Email" class="w-full p-4 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-gold/50" required>
+            </div>
+            <select class="w-full p-4 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-gold/50">
+                <option>Professionnel de santé</option>
+                <option>Entreprise / Consultant</option>
+                <option>Autre</option>
+            </select>
+            <textarea placeholder="Votre message" rows="4" class="w-full p-4 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-gold/50" required></textarea>
+            <button type="submit" class="w-full btn-gold py-4 rounded-lg font-bold text-lg shadow-md transition">Envoyer ma demande</button>
+        </form>
+    </section>
+
+    <footer class="bg-navy text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0 text-center md:text-left">
+                <div class="text-2xl font-bold text-white mb-2">DS <span class="text-gold">Conseil</span></div>
+                <p>© 2024 DS Conseil. Tous droits réservés.</p>
+            </div>
+            <div class="text-sm space-x-6">
+                <span>SIRET : En cours</span>
+                <span>Assurance RCP : Souscrite</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
